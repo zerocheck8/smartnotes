@@ -4,7 +4,7 @@
   "description": "一个智能计算器与记事本结合的工具，专为中国用户设计",
   "main": "index.js",
   "scripts": {
-    "test": "ava",
+    "test": "NODE_OPTIONS=--max-old-space-size=4096 ava",
     "build": "tsc",
     "start": "ts-node src/index.ts",
     "dev": "ts-node-dev --respawn src/index.ts",
