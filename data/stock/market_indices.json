@@ -1,0 +1,109 @@
+{
+  "indices": [
+    {
+      "symbol": "^GSPC",
+      "name": "S&P 500",
+      "description": "标准普尔500指数，由标准普尔道琼斯指数公司编制的美国500家上市公司的股票指数",
+      "region": "美国",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "^DJI",
+      "name": "道琼斯工业平均指数",
+      "description": "由华尔街日报和道琼斯公司创建的股票市场指数，衡量美国30家大型上市公司的表现",
+      "region": "美国",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "^IXIC",
+      "name": "纳斯达克综合指数",
+      "description": "衡量在纳斯达克股票市场上市的所有公司的市值加权指数",
+      "region": "美国",
+      "exchange": "NASDAQ"
+    },
+    {
+      "symbol": "^RUT",
+      "name": "罗素2000指数",
+      "description": "衡量美国小型股票市场表现的指数",
+      "region": "美国",
+      "exchange": "NYSE"
+    },
+    {
+      "symbol": "^VIX",
+      "name": "芝加哥期权交易所波动率指数",
+      "description": "反映市场对未来30天S&P 500指数波动性预期的指数",
+      "region": "美国",
+      "exchange": "CBOE"
+    },
+    {
+      "symbol": "^N225",
+      "name": "日经225指数",
+      "description": "东京证券交易所的股票市场指数",
+      "region": "日本",
+      "exchange": "TSE"
+    },
+    {
+      "symbol": "^HSI",
+      "name": "恒生指数",
+      "description": "香港股市的主要指数",
+      "region": "香港",
+      "exchange": "HKEX"
+    },
+    {
+      "symbol": "000001.SS",
+      "name": "上证指数",
+      "description": "上海证券交易所的所有上市股票的市值加权指数",
+      "region": "中国",
+      "exchange": "SSE"
+    },
+    {
+      "symbol": "399001.SZ",
+      "name": "深证成指",
+      "description": "深圳证券交易所的主要指数",
+      "region": "中国",
+      "exchange": "SZSE"
+    },
+    {
+      "symbol": "^FTSE",
+      "name": "富时100指数",
+      "description": "伦敦证券交易所上市的100家市值最大的公司的股票指数",
+      "region": "英国",
+      "exchange": "LSE"
+    },
+    {
+      "symbol": "^GDAXI",
+      "name": "德国DAX指数",
+      "description": "法兰克福证券交易所30家最大的德国公司的蓝筹股指数",
+      "region": "德国",
+      "exchange": "FSE"
+    },
+    {
+      "symbol": "^FCHI",
+      "name": "法国CAC 40指数",
+      "description": "巴黎泛欧交易所40家最大的法国上市公司的指数",
+      "region": "法国",
+      "exchange": "PAR"
+    },
+    {
+      "symbol": "^STOXX50E",
+      "name": "欧洲斯托克50指数",
+      "description": "欧元区12个国家50家最大公司的股票指数",
+      "region": "欧洲",
+      "exchange": "STOXX"
+    },
+    {
+      "symbol": "^BSESN",
+      "name": "印度孟买SENSEX指数",
+      "description": "孟买证券交易所的30家大型、财务稳健和高流动性股票的指数",
+      "region": "印度",
+      "exchange": "BSE"
+    },
+    {
+      "symbol": "^BVSP",
+      "name": "巴西BOVESPA指数",
+      "description": "巴西圣保罗证券交易所的指数",
+      "region": "巴西",
+      "exchange": "BVMF"
+    }
+  ]
+} 

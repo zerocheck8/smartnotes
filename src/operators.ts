@@ -1,0 +1,23 @@
+// 运算符优先级
+export const precedence = new Map<string, number>()
+precedence.set('+', 1)
+precedence.set('-', 1)
+precedence.set('*', 2)
+precedence.set('×', 2)
+precedence.set('x', 2)
+precedence.set('/', 2)
+precedence.set('%', 2)
+precedence.set('^', 3)
+
+// 中文运算符映射
+export const chineseOperators = new Map<string, string>()
+chineseOperators.set('加', '+')
+chineseOperators.set('减', '-')
+chineseOperators.set('乘', '*')
+chineseOperators.set('除', '/')
+chineseOperators.set('乘以', '*')
+chineseOperators.set('除以', '/')
+chineseOperators.set('的', '*')
+chineseOperators.set('转换为', 'in')
+chineseOperators.set('转成', 'in')
+chineseOperators.set('变成', 'in') 

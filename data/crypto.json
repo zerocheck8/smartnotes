@@ -1,0 +1,42 @@
+{
+  "BTC": {
+    "name": "BTC",
+    "dp": 8
+  },
+  "ETH": {
+    "name": "ETH",
+    "dp": 8
+  },
+  "USDT": {
+    "name": "USDT",
+    "dp": 2
+  },
+  "BNB": {
+    "name": "BNB",
+    "dp": 8
+  },
+  "XRP": {
+    "name": "XRP",
+    "dp": 6
+  },
+  "ADA": {
+    "name": "ADA",
+    "dp": 6
+  },
+  "DOGE": {
+    "name": "DOGE",
+    "dp": 8
+  },
+  "SOL": {
+    "name": "SOL",
+    "dp": 8
+  },
+  "DOT": {
+    "name": "DOT",
+    "dp": 8
+  },
+  "SHIB": {
+    "name": "SHIB",
+    "dp": 8
+  }
+} 

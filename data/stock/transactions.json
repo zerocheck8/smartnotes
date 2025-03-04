@@ -1,0 +1,110 @@
+[
+  {
+    "date": "2025-03-04",
+    "symbol": "AAPL",
+    "name": "AAPL",
+    "type": "buy",
+    "shares": 10,
+    "price": 150,
+    "fee": 5,
+    "total": 1505,
+    "notes": "示例交易",
+    "id": "3b9fd3f5-252b-4e54-9236-0a25133f210a"
+  },
+  {
+    "date": "2025-03-04",
+    "symbol": "AAPL",
+    "name": "AAPL",
+    "type": "buy",
+    "shares": 10,
+    "price": 150,
+    "fee": 5,
+    "total": 1505,
+    "notes": "示例交易",
+    "id": "c8c8b1ae-fcf8-4e5f-a379-aaf1e53cd637"
+  },
+  {
+    "date": "2025-03-04",
+    "symbol": "AAPL",
+    "name": "AAPL",
+    "type": "buy",
+    "shares": 10,
+    "price": 150,
+    "fee": 5,
+    "total": 1505,
+    "notes": "示例交易",
+    "id": "49617135-4ac6-4e10-8fa3-d5ef668a018f"
+  },
+  {
+    "date": "2025-03-04",
+    "symbol": "600519.SS",
+    "name": "贵州茅台",
+    "type": "buy",
+    "shares": 2,
+    "price": 1500,
+    "fee": 5,
+    "total": 3005,
+    "notes": "示例交易 - 中国股票",
+    "id": "b44406d2-b03a-4cec-b085-510ab1a0c413"
+  },
+  {
+    "date": "2025-03-04",
+    "symbol": "000858.SZ",
+    "name": "五粮液",
+    "type": "buy",
+    "shares": 10,
+    "price": 150,
+    "fee": 5,
+    "total": 1505,
+    "notes": "示例交易 - 中国股票",
+    "id": "e3fb8f4e-f041-4bd0-8bea-ed7d9ebe2b76"
+  },
+  {
+    "date": "2025-03-04",
+    "symbol": "600519.SS",
+    "name": "贵州茅台",
+    "type": "buy",
+    "shares": 2,
+    "price": 1500,
+    "fee": 5,
+    "total": 3005,
+    "notes": "示例交易 - 中国股票",
+    "id": "9bc04dad-570e-4444-a0d3-7ce8af8e826b"
+  },
+  {
+    "date": "2025-03-04",
+    "symbol": "000858.SZ",
+    "name": "五粮液",
+    "type": "buy",
+    "shares": 10,
+    "price": 150,
+    "fee": 5,
+    "total": 1505,
+    "notes": "示例交易 - 中国股票",
+    "id": "5eb65632-6f84-42cd-9d50-2c8aab36cd6d"
+  },
+  {
+    "date": "2025-03-04",
+    "symbol": "BABA",
+    "name": "阿里巴巴",
+    "type": "buy",
+    "shares": 10,
+    "price": 85.5,
+    "fee": 5,
+    "total": 860,
+    "notes": "示例交易 - 中国概念股",
+    "id": "e0231723-d43b-473c-aa70-ee6101f418b8"
+  },
+  {
+    "date": "2025-03-04",
+    "symbol": "BIDU",
+    "name": "百度",
+    "type": "buy",
+    "shares": 20,
+    "price": 105.2,
+    "fee": 5,
+    "total": 2109,
+    "notes": "示例交易 - 中国概念股",
+    "id": "0519c812-0b92-495b-a707-2df05d8a99bf"
+  }
+]

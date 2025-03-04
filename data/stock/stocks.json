@@ -1,0 +1,132 @@
+{
+  "AAPL": {
+    "symbol": "AAPL",
+    "name": "AAPL",
+    "exchange": "",
+    "industry": "",
+    "listDate": "",
+    "isIndex": false
+  },
+  "MSFT": {
+    "symbol": "MSFT",
+    "name": "Microsoft Corporation",
+    "exchange": "NASDAQ",
+    "industry": "Technology",
+    "listDate": "1986-03-13",
+    "isIndex": false
+  },
+  "GOOG": {
+    "symbol": "GOOG",
+    "name": "Alphabet Inc.",
+    "exchange": "NASDAQ",
+    "industry": "Technology",
+    "listDate": "2004-08-19",
+    "isIndex": false
+  },
+  "AMZN": {
+    "symbol": "AMZN",
+    "name": "Amazon.com Inc.",
+    "exchange": "NASDAQ",
+    "industry": "Consumer Cyclical",
+    "listDate": "1997-05-15",
+    "isIndex": false
+  },
+  "TSLA": {
+    "symbol": "TSLA",
+    "name": "Tesla Inc.",
+    "exchange": "NASDAQ",
+    "industry": "Automotive",
+    "listDate": "2010-06-29",
+    "isIndex": false
+  },
+  "BABA": {
+    "symbol": "BABA",
+    "name": "Alibaba Group Holding Ltd.",
+    "exchange": "NYSE",
+    "industry": "Consumer Cyclical",
+    "listDate": "2014-09-19",
+    "isIndex": false
+  },
+  "TCEHY": {
+    "symbol": "TCEHY",
+    "name": "Tencent Holdings Ltd.",
+    "exchange": "OTC",
+    "industry": "Communication Services",
+    "listDate": "2007-11-16",
+    "isIndex": false
+  },
+  "9988.HK": {
+    "symbol": "9988.HK",
+    "name": "阿里巴巴集团",
+    "exchange": "HKEX",
+    "industry": "电子商务",
+    "listDate": "2019-11-26",
+    "isIndex": false
+  },
+  "0700.HK": {
+    "symbol": "0700.HK",
+    "name": "腾讯控股",
+    "exchange": "HKEX",
+    "industry": "互联网服务",
+    "listDate": "2004-06-16",
+    "isIndex": false
+  },
+  "600519.SS": {
+    "symbol": "600519.SS",
+    "name": "贵州茅台",
+    "exchange": "SSE",
+    "industry": "白酒",
+    "listDate": "2001-08-27",
+    "isIndex": false
+  },
+  "000858.SZ": {
+    "symbol": "000858.SZ",
+    "name": "五粮液",
+    "exchange": "SZSE",
+    "industry": "白酒",
+    "listDate": "1998-04-27",
+    "isIndex": false
+  },
+  "^GSPC": {
+    "symbol": "^GSPC",
+    "name": "S&P 500",
+    "exchange": "INDEX",
+    "industry": "N/A",
+    "isIndex": true
+  },
+  "^DJI": {
+    "symbol": "^DJI",
+    "name": "Dow Jones Industrial Average",
+    "exchange": "INDEX",
+    "industry": "N/A",
+    "isIndex": true
+  },
+  "^IXIC": {
+    "symbol": "^IXIC",
+    "name": "NASDAQ Composite",
+    "exchange": "INDEX",
+    "industry": "N/A",
+    "isIndex": true
+  },
+  "000001.SS": {
+    "symbol": "000001.SS",
+    "name": "上证指数",
+    "exchange": "SSE",
+    "industry": "N/A",
+    "isIndex": true
+  },
+  "399001.SZ": {
+    "symbol": "399001.SZ",
+    "name": "深证成指",
+    "exchange": "SZSE",
+    "industry": "N/A",
+    "isIndex": true
+  },
+  "^HSI": {
+    "symbol": "^HSI",
+    "name": "恒生指数",
+    "exchange": "HKEX",
+    "industry": "N/A",
+    "isIndex": true
+  }
+}

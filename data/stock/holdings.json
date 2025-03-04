@@ -1,0 +1,57 @@
+[
+  {
+    "symbol": "AAPL",
+    "name": "AAPL",
+    "shares": 30,
+    "costPrice": 150.5,
+    "currentPrice": 150,
+    "value": 4500,
+    "profit": -15,
+    "profitPercent": -0.33222591362126247,
+    "lastUpdated": 1741125196968
+  },
+  {
+    "symbol": "600519.SS",
+    "name": "贵州茅台",
+    "shares": 4,
+    "costPrice": 1502.5,
+    "currentPrice": 1500,
+    "value": 6000,
+    "profit": -10,
+    "profitPercent": -0.16638935108153077,
+    "lastUpdated": 1741125511887
+  },
+  {
+    "symbol": "000858.SZ",
+    "name": "五粮液",
+    "shares": 20,
+    "costPrice": 150.5,
+    "currentPrice": 150,
+    "value": 3000,
+    "profit": -10,
+    "profitPercent": -0.33222591362126247,
+    "lastUpdated": 1741125511888
+  },
+  {
+    "symbol": "BABA",
+    "name": "阿里巴巴",
+    "shares": 10,
+    "costPrice": 86,
+    "currentPrice": 85.5,
+    "value": 855,
+    "profit": -5,
+    "profitPercent": -0.5813953488372093,
+    "lastUpdated": 1741125629751
+  },
+  {
+    "symbol": "BIDU",
+    "name": "百度",
+    "shares": 20,
+    "costPrice": 105.45,
+    "currentPrice": 105.2,
+    "value": 2104,
+    "profit": -5,
+    "profitPercent": -0.2370791844476055,
+    "lastUpdated": 1741125629751
+  }
+]

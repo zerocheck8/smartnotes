@@ -1,0 +1,62 @@
+{
+  "CNY": {
+    "name": "CNY",
+    "dp": 2
+  },
+  "USD": {
+    "name": "USD",
+    "dp": 2
+  },
+  "EUR": {
+    "name": "EUR",
+    "dp": 2
+  },
+  "GBP": {
+    "name": "GBP",
+    "dp": 2
+  },
+  "JPY": {
+    "name": "JPY",
+    "dp": 0
+  },
+  "KRW": {
+    "name": "KRW",
+    "dp": 0
+  },
+  "HKD": {
+    "name": "HKD",
+    "dp": 2
+  },
+  "TWD": {
+    "name": "TWD",
+    "dp": 2
+  },
+  "SGD": {
+    "name": "SGD",
+    "dp": 2
+  },
+  "AUD": {
+    "name": "AUD",
+    "dp": 2
+  },
+  "CAD": {
+    "name": "CAD",
+    "dp": 2
+  },
+  "CHF": {
+    "name": "CHF",
+    "dp": 2
+  },
+  "RUB": {
+    "name": "RUB",
+    "dp": 2
+  },
+  "THB": {
+    "name": "THB",
+    "dp": 2
+  },
+  "NZD": {
+    "name": "NZD",
+    "dp": 2
+  }
+} 

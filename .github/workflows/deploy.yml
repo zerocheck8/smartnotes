@@ -1,0 +1,171 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+          cache: 'npm'
+      - name: Install dependencies
+        run: npm ci
+      - name: Build
+        run: npm run build
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Build demo page
+        run: |
+          mkdir -p dist/demo
+          cp -r dist/* dist/demo/
+          echo '<!DOCTYPE html>
+          <html lang="zh-CN">
+          <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>智算 (ZhiSuan) - 演示</title>
+            <style>
+              body {
+                font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+                line-height: 1.6;
+                max-width: 800px;
+                margin: 0 auto;
+                padding: 20px;
+                color: #333;
+              }
+              h1 {
+                color: #1890ff;
+                border-bottom: 2px solid #f0f0f0;
+                padding-bottom: 10px;
+              }
+              pre {
+                background-color: #f5f5f5;
+                padding: 15px;
+                border-radius: 5px;
+                overflow-x: auto;
+              }
+              .demo-section {
+                margin-bottom: 30px;
+                border: 1px solid #eee;
+                border-radius: 8px;
+                padding: 20px;
+              }
+              .btn {
+                background-color: #1890ff;
+                color: white;
+                border: none;
+                padding: 8px 16px;
+                border-radius: 4px;
+                cursor: pointer;
+              }
+              .btn:hover {
+                background-color: #40a9ff;
+              }
+              footer {
+                margin-top: 50px;
+                text-align: center;
+                color: #888;
+                font-size: 0.9em;
+              }
+            </style>
+          </head>
+          <body>
+            <h1>智算 (ZhiSuan) - 智能计算器与记事本</h1>
+            
+            <p>这是智算应用的在线演示页面。智算是一个结合了智能计算器和记事本功能的工具，专为中国用户设计。</p>
+            
+            <div class="demo-section">
+              <h2>基本功能演示</h2>
+              <pre id="demo-output">正在加载演示...</pre>
+              <button class="btn" onclick="runDemo()">运行演示</button>
+            </div>
+            
+            <div class="demo-section">
+              <h2>项目特点</h2>
+              <ul>
+                <li><strong>智能计算</strong>：支持自然语言输入的计算，如"一千加两千"、"¥100 + $15"等</li>
+                <li><strong>单位转换</strong>：自动识别并转换不同单位，包括货币、长度、重量等</li>
+                <li><strong>变量支持</strong>：可以定义变量并在后续计算中使用</li>
+                <li><strong>记事功能</strong>：将计算过程和结果保存为笔记</li>
+                <li><strong>股票功能</strong>：查询股票信息、获取实时行情、管理投资组合</li>
+              </ul>
+            </div>
+            
+            <div class="demo-section">
+              <h2>获取完整版</h2>
+              <p>这只是一个简单的演示。要获取完整功能，请访问我们的GitHub仓库：</p>
+              <a href="https://github.com/yourusername/zhisuan" class="btn">GitHub 仓库</a>
+            </div>
+            
+            <footer>
+              <p>© 2024 智算 (ZhiSuan) | MIT 许可证</p>
+            </footer>
+            
+            <script>
+              function runDemo() {
+                const demoOutput = document.getElementById("demo-output");
+                demoOutput.innerHTML = `智算 - 智能计算器与记事本
+===========================
+
+示例1：基本算术
+100 + 200 = 300
+1千 + 2千 = 3000
+1万 + 2万 = 30000
+
+示例2：货币计算
+¥100 + $15 (汇率：1$ = ¥7.1) = ¥206.5
+20CNY 转换为 USD = $2.82
+
+示例3：变量
+iPhone 15 = ¥6999
+AirPods Pro = ¥1899
+价格差异: iPhone 15 - AirPods Pro = ¥5100
+
+示例4：求和
+## 购物清单
+牛奶 ¥3
+鸡蛋 ¥2
+糖 ¥1
+面粉 ¥5
+总计 = ¥11`;
+              }
+              
+              // 自动运行演示
+              window.onload = function() {
+                setTimeout(runDemo, 500);
+              };
+            </script>
+          </body>
+          </html>' > dist/index.html
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: './dist'
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2 

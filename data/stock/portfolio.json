@@ -1,0 +1,101 @@
+[
+  {
+    "id": "600519.SS-1741125882590",
+    "symbol": "600519.SS",
+    "name": "贵州茅台",
+    "shares": 1,
+    "costPrice": 1800,
+    "currentPrice": 1800,
+    "marketValue": 1800,
+    "profitLoss": 0,
+    "profitLossPercent": 0
+  },
+  {
+    "id": "000858.SZ-1741125882590",
+    "symbol": "000858.SZ",
+    "name": "五粮液",
+    "shares": 10,
+    "costPrice": 150,
+    "currentPrice": 150,
+    "marketValue": 1500,
+    "profitLoss": 0,
+    "profitLossPercent": 0
+  },
+  {
+    "id": "BABA-1741125882590",
+    "symbol": "BABA",
+    "name": "Alibaba Group Holding Limited",
+    "shares": 10,
+    "costPrice": 85,
+    "currentPrice": 85.75,
+    "marketValue": 857.5,
+    "profitLoss": 7.5,
+    "profitLossPercent": 0.8823529411764706
+  },
+  {
+    "id": "BIDU-1741125882590",
+    "symbol": "BIDU",
+    "name": "Baidu, Inc.",
+    "shares": 5,
+    "costPrice": 120,
+    "currentPrice": 120.3,
+    "marketValue": 601.5,
+    "profitLoss": 1.5,
+    "profitLossPercent": 0.25
+  },
+  {
+    "id": "AAPL-1741125882590",
+    "symbol": "AAPL",
+    "name": "Apple Inc.",
+    "shares": 5,
+    "costPrice": 150,
+    "currentPrice": 150.25,
+    "marketValue": 751.25,
+    "profitLoss": 1.25,
+    "profitLossPercent": 0.16666666666666669
+  },
+  {
+    "id": "600519.SS-1741126199572",
+    "symbol": "600519.SS",
+    "name": "贵州茅台",
+    "shares": 1,
+    "costPrice": 1800,
+    "currentPrice": 1800,
+    "marketValue": 1800,
+    "profitLoss": 0,
+    "profitLossPercent": 0
+  },
+  {
+    "id": "000858.SZ-1741126199572",
+    "symbol": "000858.SZ",
+    "name": "五粮液",
+    "shares": 10,
+    "costPrice": 150,
+    "currentPrice": 150,
+    "marketValue": 1500,
+    "profitLoss": 0,
+    "profitLossPercent": 0
+  },
+  {
+    "id": "BABA-1741126199572",
+    "symbol": "BABA",
+    "name": "Alibaba Group Holding Limited",
+    "shares": 10,
+    "costPrice": 85,
+    "currentPrice": 85.75,
+    "marketValue": 857.5,
+    "profitLoss": 7.5,
+    "profitLossPercent": 0.8823529411764706
+  },
+  {
+    "id": "BIDU-1741126199572",
+    "symbol": "BIDU",
+    "name": "Baidu, Inc.",
+    "shares": 5,
+    "costPrice": 120,
+    "currentPrice": 120.3,
+    "marketValue": 601.5,
+    "profitLoss": 1.5,
+    "profitLossPercent": 0.25
+  }
+]
