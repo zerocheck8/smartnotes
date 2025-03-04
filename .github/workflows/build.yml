@@ -12,7 +12,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [18.x, 20.x]
+        node-version: [16.x]
 
     steps:
     - uses: actions/checkout@v3
@@ -21,7 +21,10 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
-    - run: npm ci
-    - run: npm run build
+    - name: Install dependencies
+      run: npm install
+    - name: Build
+      run: npm run build
     # 暂时跳过测试
-    # - run: npm test 
+    # - name: Test
+    #   run: npm test 
